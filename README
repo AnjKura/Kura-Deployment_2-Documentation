@@ -1,0 +1,13 @@
+Deployment #2
+Welcome to Deployment 2!! Time to step it up a bit for this
+deployment. You will need to follow the steps below to set up a CI/CD
+pipeline from start to finish. We will still use Elastic Beanstalk and you
+will be in charge of customizing the pipeline!!
+Install Jenkins on an EC2 if you haven’t
+already:
+Activate the Jenkins user on the EC2:
+$sudo passwd jenkins
+$sudo su - jenkins -s /bin/bash
+Create a Jenkins user in your aws account:
+● Navigate to IAM in the AWS console. Next click on the
+Users option in the Access management.
